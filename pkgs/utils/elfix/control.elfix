@@ -1,0 +1,7 @@
+Package: elfix
+Section: utils
+Maintainer: Icenowy Zheng <icenowy@aosc.io>
+Depends: libelf1, libattr1, python2.7-minimal, python-pax
+Description: A suite of tools to work with ELF binaries and libraries
+ Elfix is originated from Hardened Gentoo. It contains several utilities
+ useful for controlling PaX flags on ELF files.

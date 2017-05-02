@@ -1,0 +1,5 @@
+Package: python-pax
+Section: python
+Maintainer: Icenowy Zheng <icenowy@aosc.io>
+Depends: libattr1, python2.7-minimal
+Description: Python library to process PaX flags
