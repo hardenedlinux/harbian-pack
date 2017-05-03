@@ -18,3 +18,7 @@ mkdir -p "$BUILD_DIR" "$OUT_DIR_INSTALL" "$OUT_DIR_DEB"
 do_build() {
 	bash build_system/do_build/do_build.sh "$@"
 }
+
+do_make_repo() {
+	bash build_system/do_make_repo/do_make_repo.sh "$@"
+}

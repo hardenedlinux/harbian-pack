@@ -1,0 +1,6 @@
+origin="Hardened Linux"
+label="HardeneDebian"
+suite="stretch"
+codename="freedom"
+valid_until="fortnight" # As parameter of "date" command's --date option
+description="HardeneDebian sample repository"
