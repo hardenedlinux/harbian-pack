@@ -83,7 +83,7 @@ do_pack() {
 		echo "Package $1 has a different name $pkgname_control in control file!" >&2
 		exit 1
 	fi
-	echo "Installed-Size: `du -s "$pkg_dir" | cut -d ' ' -f 1`" >> $control_file
+	echo "Installed-Size: `du -s "$pkg_dir" | cut -f 1`" >> $control_file
 	deb_file="$OUT_DIR_DEB/${pkgname_control}_${ver_control}_${arch_control}.deb"
 	if ! dpkg-deb --build "$pkg_dir" "$deb_file"; then
 		echo "Build $deb_file failed!" >&2
