@@ -153,5 +153,6 @@ do_make() {
 
 do_make_inst() {
 	pkg="$1"
+	shift
 	make DESTDIR="`get_pkg_dir "$pkg"`" "$@" install
 }
