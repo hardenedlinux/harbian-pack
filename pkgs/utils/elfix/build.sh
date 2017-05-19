@@ -16,9 +16,9 @@ get_src_net_with_md5 "$SRCTBL" "$SRCTBL_MD5"
 auto_extract_src
 enter_build_dir elfix
 
-do_autoconf elfix
-do_make elfix
-do_make_inst elfix
+do_autoconf
+do_make
+do_make_inst
 
 cd scripts
 
