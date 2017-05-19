@@ -148,10 +148,10 @@ do_autoconf() {
 }
 
 do_make() {
-	make -j`nproc`
+	make -j`nproc` "$@"
 }
 
 do_make_inst() {
 	pkg="$1"
-	make DESTDIR="`get_pkg_dir "$pkg"`" install
+	make DESTDIR="`get_pkg_dir "$pkg"`" "$@" install
 }
