@@ -18,7 +18,7 @@ enter_build_dir elfix
 
 do_autoconf
 do_make
-do_make_inst
+do_make_inst elfix
 
 cd scripts
 
