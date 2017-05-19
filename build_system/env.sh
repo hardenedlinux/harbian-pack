@@ -1,4 +1,4 @@
-if echo "$0" | grep -qv bash; then
+if [ "x$BASH" = "x" ]; then
 	echo "Please run this build system inside Bash!" >&2
 	return 1
 fi
