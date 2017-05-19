@@ -9,6 +9,8 @@ following command (assume the repo.gpg is the public key file):
 apt-key add repo.gpg
 ```
 
+The repository's branding should also be prepared, see repository-branding.md.
+
 First enter the environment according to the commands in enter-environment.md.
 
 Then run `do_make_repo` command, an APT repository will then be available in
